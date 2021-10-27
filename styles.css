@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(to left, #ffffff 80%, #00ffff 20%);
+}
+.navsection{
+    width: 100%;
+    height: 20vh;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: linear-gradient(to top, #ffffff 80%, #00ffff 20%);
+}
+.logo{
+width: 30%;
+color: #fff;
+background-image: linear-gradient(#8d98e3 40%,#854fee 60%);
+
+box-sizing:border-box;
+margin: 50px 0px 70px 0px;
+}
+.logo h1{
+    
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: aagepiche 2s linear infinite;
+    animation-direction: alternate;
+    text-align:left;
+    padding-left:12%;
+    }
+
+@keyframes aagepiche{
+    from {padding-left:30px;}
+       to  {padding-right:10px;}
+}
+
+nav{
+    width: 60%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+nav a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+nav a:first-child{
+    color: #4458dc;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #4458dc;
+}
+
+.mainsection{
+    text-indent: 20px;
+    width:50%
+}
+
+.hireme{
+    text-indent: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    
+    }
+.hireme a{
+    text-decoration: none;
+    border:2px black solid;
+    padding: 2px;
+    background-color: white;
+}
+
+.hireme a:hover{
+     
+     color: darkorchid;
+     background-color:#00ffff ;
+}
+
+img{
+    max-width: 400px;
+    height:auto;
+    text-align: center;
+    margin-left: 25%;
+    
+}
+pre b{
+    font-style:italic;
+    font-size: 1.6rem;
+    color:rgb(153, 51, 248);
+    text-align: center;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+pre cite{
+    font-size: 1.6rem;
+    color: crimson;
+}
